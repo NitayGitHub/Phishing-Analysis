@@ -1,4 +1,4 @@
-# Phishing-Analysis
+# Phishing Analysis
 ## **Introduction**
 This project focuses on email classification, similar to sentiment analysis, where text is categorized based on emotional tones. The objective is to classify emails as either safe or phishing. To achieve this, two distinct approaches are explored: converting email text into term frequency vectors using TfidfVectorizer or CountVectorizer, and leveraging the transformer-based BERT model for training and classification.
 
