@@ -20,3 +20,15 @@ To install these libraries, you can use the following command:
 ## **Data Sources**
 The email and labels for this project were downloaded from [Phishing Email Detection](https://www.kaggle.com/datasets/subhajournal/phishingemails).
 The dataset includes 18600 emails where 61% are safe and 39% are phishing.
+
+## Training Results
+
+The training process yielded impressive outcomes:
+
+- **Logistic Regression**: Trained on term frequency vectors, achieving an **F1 Score of 98%**.  
+- **BERT**: Further improved performance with an **F1 Score of 99%**.
+
+## Future Work
+
+- Explore **bert-finetuned-phishing** and leverage transfer learning instead of using **bert-base-uncased**.  
+- Experiment with classifiers beyond Logistic Regression, such as **XGBoost**, **Random Forest**, or **MLP**, which might yield better results.  
